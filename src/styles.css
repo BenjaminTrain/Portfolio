@@ -1,9 +1,9 @@
 ﻿body {
-    color: #FF5151;
+    
 }
 
 .content {
-    margin-left: 5%;
+    margin-bottom: 100px;
 }
 
 /**************** Titre ******************/
@@ -15,19 +15,35 @@ h3 {
     padding: 2% 0%;
     font-size: 25px;
     margin-top: 3%;
-}
-
-/***************** Menu *****************/
-nav {
-    background-color: #FF5151;
+    color: #d32f2f;
 }
 
 /********** Message d'erreur ************/
 label::after {
-    font-size: 16px;
+    font-weight: bold;
 }
 
 /*************** Grille *****************/
 .row {
     margin-bottom: 35px;
+}
+
+/*************** Footer *****************/
+.page-footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    z-index: 1000;
+}
+
+/*************** Liste *****************/
+li {
+    height: 50px;
+}
+
+
+/*************** Icone *****************/
+.material-icons {
+    vertical-align: text-bottom;
+    color: #d32f2f;
 }

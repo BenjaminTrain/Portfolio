@@ -1,28 +1,55 @@
 ﻿<div class="content">
-    <h3>Me contacter</h3>
+    <h3 class="row">Me contacter</h3>
+
     <div class="row">
-        <form class="col s12">
-            <div class="row">
-                <div class="input-field col s12">
-                    <div class="input-field inline">
-                        <i class="material-icons prefix">email</i>
-                        <input placeholder="Email" name="email" id="email" type="email" class="validate">
-                        <label class="" for="email" data-error="L'adresse email saisie n'est pas valide"></label>
-                    </div>
+        <div class="col s10 offset-s1 m8 offset-m1 l3 offset-l1">
+            <div class="card">
+                <div class="card-content">
+                    <span class="card-title">Détail</span>
+                    <ul>
+                        <li>
+                            <i class="material-icons prefix">location_on</i>
+                            France, Montpellier
+                        </li>
+                        <li>
+                            <i class="material-icons prefix">email</i>
+                            benjamin.train@gmail.com
+                        </li>
+                        <li>
+                            <i class="material-icons prefix">phone</i>
+                            06 76 99 03 48
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </form>
-    </div>
-    <div class="row">
-        <form class="col s12">
-            <div class="row">
-                <div class="input-field col s12">
-                    <div class="input-field inline">
-                        <i class="material-icons prefix">mode_edit</i>
-                        <textarea id="message" placeholder="Votre message" name="mail" id="mail" class="materialize-textarea"></textarea>
+        </div>
+
+        <div class="card col s10 offset-s1 m10 offset-m1 l6 offset-l1">
+            <div class="card-content">
+                <form>
+                    <div class="row">
+                        <div class="input-field">
+                            <div class="input-field inline">
+                                <i class="material-icons prefix">email</i>
+                                <input placeholder="Email" name="email" id="email" type="email" class="validate">
+                                <label class="" for="email" data-error="L'adresse email saisie n'est pas valide"></label>
+                            </div>
+                        </div>
                     </div>
-                </div>
+
+                    <div class="row">
+                        <div class="input-field">
+                            <div class="input-field inline">
+                                <i class="material-icons prefix">mode_edit</i>
+                                <textarea id="message" placeholder="Votre message" name="mail" id="mail" class="materialize-textarea"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row col s3 offset-m4 offset-s2">
+                        <a href="mailto:benjamin.train@gmail.com" class="waves-effect waves-light btn red darken-2">Envoyer</a>
+                    </div>
+                </form>
             </div>
-        </form>
+        </div>
     </div>
 </div>
