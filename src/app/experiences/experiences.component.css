@@ -1,5 +1,5 @@
 ﻿.header {
-    color: #d32f2f;
+    color: #6F9CFF;
     font-style: italic;
     font-weight: bold;
     font-size: 22px;
@@ -9,7 +9,7 @@
     font-style: italic;
     font-weight: bold;
     font-size: 20px;
-    margin-top: 70px;
+    margin-top: 35px;
 }
 
 .card-content {
@@ -19,4 +19,12 @@
 
 p.description {
     padding-bottom: 10px;
+}
+
+.tabs a {
+    color: #6F9CFF;
+}
+
+.tab a.active {
+    color: #ee6e73;
 }

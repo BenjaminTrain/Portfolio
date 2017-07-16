@@ -1,13 +1,22 @@
 ﻿<div class="navbar-fixed">
-    <nav class="red darken-2">
+    <nav class="indigo darken-3">
         <div class="nav-wrapper">
-            <ul class="left hide-on-down">
-                <li><a href="#">Accueil </a></li>
-                <li><a href="#">Comp&eacute;tences </a></li>
+            <a href="#" (click)="menuCollapse()" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="left hide-on-med-and-down">
+                <li><a href="accueil">Accueil </a></li>
+                <li><a href="competences">Comp&eacute;tences </a></li>
                 <li><a href="experiences">Exp&eacute;riences </a></li>
-                <li><a href="/diplomes">Dipl&ocirc;mes </a></li>
-                <li><a href="#">Portfolio </a></li>
-                <li><a href="/contact">Contact </a></li>
+                <li><a href="diplomes">Dipl&ocirc;mes </a></li>
+                <li><a href="portfolio">Portfolio </a></li>
+                <li><a href="contact">Contact </a></li>
+            </ul>
+            <ul class="side-nav" id="mobile">
+                <li><a href="accueil">Accueil </a></li>
+                <li><a href="competences">Comp&eacute;tences </a></li>
+                <li><a href="experiences">Exp&eacute;riences </a></li>
+                <li><a href="diplomes">Dipl&ocirc;mes </a></li>
+                <li><a href="portfolio">Portfolio </a></li>
+                <li><a href="contact">Contact </a></li>
             </ul>
         </div>
     </nav>
@@ -15,13 +24,11 @@
 
 <router-outlet></router-outlet>
 
-<footer class="page-footer red darken-2">
+<footer class="page-footer indigo darken-3">
     <div class="container">
         <div class="row right-align">
             <a class="github-button" href="https://github.com/BenjaminTrain" data-size="large" data-show-count="true" aria-label="Follow @BenjaminTrain on GitHub">Follow @BenjaminTrain</a>
         </div>
     </div>
 </footer>
-
-
 

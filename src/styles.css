@@ -1,5 +1,5 @@
 ﻿body {
-    
+    background-color: #F9FEFF;
 }
 
 .content {
@@ -15,7 +15,7 @@ h3 {
     padding: 2% 0%;
     font-size: 25px;
     margin-top: 3%;
-    color: #d32f2f;
+    color: #6F9CFF;
 }
 
 /********** Message d'erreur ************/
@@ -41,9 +41,13 @@ li {
     height: 50px;
 }
 
-
 /*************** Icone *****************/
 .material-icons {
     vertical-align: text-bottom;
-    color: #d32f2f;
+    color: #6F9CFF;
+}
+
+/*************** Footer *****************/
+.page-footer {
+    height: 55px;
 }
