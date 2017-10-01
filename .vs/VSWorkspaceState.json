@@ -3,9 +3,9 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\contact",
+    "\\src\\app\\competences",
     "\\src\\app\\experiences"
   ],
-  "SelectedNode": "\\src\\app\\app.component.ts",
+  "SelectedNode": "\\src\\app\\experiences\\experiences.component.html",
   "PreviewInSolutionExplorer": false
 }
